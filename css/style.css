@@ -1,0 +1,184 @@
+html,body
+{
+	height: 100vh;
+	width: 100vw;
+	background:url("../img/n.png");
+	background-position: 0% 9%;
+	background-repeat: no-repeat;
+	webkit-background-size: cover;
+    background-size: cover;
+}
+*
+{
+	font-family: Berlin Sans FB;
+	margin:0;
+	padding: 0;
+
+}
+
+.navlink-brand
+{
+	font-size:3vw !important;
+
+}
+
+.navbar-nav
+{
+	background:rgba(0,0,0,0.6) !important;
+	width: 93% !important;
+}
+
+.nav-link
+{
+	font-size: 1.6vw;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.nav-link:hover
+{
+	color: #23E8EA !important;
+	font-size: 25px !important;
+    transition: all .5s ease !important;
+    border-left: 10px solid #23E8EA !important;
+}
+
+.content
+{
+	margin-top: 11vw;
+	margin-bottom: 35vw;
+}
+
+h1
+{
+	font-size: 5vw !important;
+}
+
+p
+{
+	font-size: 22px;
+	text-align: center;
+}
+
+.container h1
+{
+	font-family: 'Do Hyeon', sans-serif !important;
+}
+
+.container h2
+{
+	font-family: 'Do Hyeon', sans-serif !important;
+}
+
+.container p
+{
+	font-family: 'Do Hyeon', sans-serif !important;
+}
+
+.container img
+{
+	width: 267;
+	height: 350px;
+}
+
+
+.parallax
+{
+	height: 30vw;
+    background:url("../img/t.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:#23E8EA ;
+    display: flex;
+    align-items: center;
+     
+}
+
+input[type="text"],
+     [type="email"]
+{
+	width: 25vw;
+}
+
+textarea
+{
+	width: 52vw;
+}
+
+.parallax2
+{
+	height: 40vw;
+	background:url("../img/descont.jpg");
+	background-position: 50%;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.parallax2 h2
+{
+	color: black;
+	padding-bottom: 5vh;
+}
+
+.parallax p
+{
+	color:black;
+	font-size: 1.3vw;
+}
+
+.btn1
+{
+	width: 50%;
+	float: left;
+	background-color: transparent !important;
+	color: black !important;
+	font-family: 'Do Hyeon', sans-serif; 
+	color: black;
+}
+
+.btn2
+{
+	float: right;
+	background-color: transparent !important;
+	color: black !important; 
+}
+
+.cols3
+{
+	position: relative;
+}
+
+.count
+{
+	position: absolute;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	padding-top: 12vh;
+}
+
+.footer
+{
+	background:url("../img/f.png");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	position: relative;
+}
+.rights
+{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	bottom:0;
+	font-family: 'Do Hyeon', sans-serif;
+	background:rgba(0,0,0,0.6) !important;
+	color: #23E8EA;
+
+}
